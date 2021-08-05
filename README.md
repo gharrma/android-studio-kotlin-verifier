@@ -10,3 +10,18 @@ files produced by the verifier.
 Since there are false positives, we actually run the verifier twice:
 once with the old Kotlin plugin, and again with the new one. Then
 we diff the results.
+
+Usage:
+```
+./gradlew run --args='/path/to/android-studio /path/to/kotlin-plugin /path/to/out/dir'
+```
+
+This will create several files inside `/path/to/out/dir`:
+```
+all-errors-before.txt
+all-errors-after.txt
+diff.txt
+...
+```
+
+The file `diff.txt` will show all binary compatibility issues introduced by the new Kotlin plugin.
