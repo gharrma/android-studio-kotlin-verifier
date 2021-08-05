@@ -2111,8 +2111,16 @@ The method might have been declared in the super class: com.google.gson.JsonElem
 Plugin: org.jetbrains.android
 ================================================
 Method com.android.tools.idea.testartifacts.instrumented.testsuite.actions.ExportAndroidTestResultsAction.showExportTestResultsDialog(ExportTestResultsConfiguration exportConfig, Project project, String defaultFileName) : File references property inspections.settings.overwrite.action.text that is not found in resource bundle messages.TestRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.android.tools.idea.nav.safeargs.psi.kotlin.LightArgsKtClass.ArgsClassScope.methods$1.componentFunctions$1.invoke(com.android.tools.idea.nav.safeargs.index.NavArgumentData arg) : org.jetbrains.kotlin.descriptors.impl.SimpleFunctionDescriptorImpl contains an *invokestatic* instruction referencing an unresolved method org.jetbrains.kotlin.resolve.source.KotlinSourceElementKt.getPsi(org.jetbrains.kotlin.descriptors.SourceElement) : com.intellij.psi.PsiElement. This can lead to **NoSuchMethodError** exception at runtime.
+Method com.android.tools.idea.nav.safeargs.psi.xml.XmlUtilsKt.withMethodIcon(org.jetbrains.kotlin.descriptors.SourceElement $this$withMethodIcon, java.lang.String name) : org.jetbrains.kotlin.descriptors.SourceElement contains an *invokestatic* instruction referencing an unresolved method org.jetbrains.kotlin.resolve.source.KotlinSourceElementKt.getPsi(org.jetbrains.kotlin.descriptors.SourceElement) : com.intellij.psi.PsiElement. This can lead to **NoSuchMethodError** exception at runtime.
+Method com.android.tools.idea.nav.safeargs.module.KtDescriptorCacheModuleService.createArgsPackages$2.invoke(com.android.tools.idea.nav.safeargs.index.NavDestinationData destination) : com.android.tools.idea.nav.safeargs.module.KtDescriptorCacheModuleService.QualifiedDescriptor contains an *invokestatic* instruction referencing an unresolved method org.jetbrains.kotlin.resolve.source.KotlinSourceElementKt.getPsi(org.jetbrains.kotlin.descriptors.SourceElement) : com.intellij.psi.PsiElement. This can lead to **NoSuchMethodError** exception at runtime.
 Method org.jetbrains.android.newProject.AndroidProjectStructureDetector.AndroidProjectRoot.getRootTypeName() : String references property group.Internal.Android.text that is not found in resource bundle messages.AndroidBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.jetbrains.kotlin.AndroidExtensionsReferenceSearchExecutor.isReferenceTo(org.jetbrains.kotlin.psi.KtReferenceExpression $this$isReferenceTo, com.intellij.psi.PsiElement element) : boolean contains an *invokestatic* instruction referencing an unresolved method org.jetbrains.kotlin.resolve.source.KotlinSourceElementKt.getPsi(org.jetbrains.kotlin.descriptors.SourceElement) : com.intellij.psi.PsiElement. This can lead to **NoSuchMethodError** exception at runtime.
+Method com.android.tools.idea.nav.safeargs.psi.kotlin.LightDirectionsKtClass.computeCompanionObject$1.CompanionObjectScope.companionMethods$1$1.invoke(com.android.tools.idea.nav.safeargs.index.NavActionData action) : org.jetbrains.kotlin.descriptors.impl.SimpleFunctionDescriptorImpl contains an *invokestatic* instruction referencing an unresolved method org.jetbrains.kotlin.resolve.source.KotlinSourceElementKt.getPsi(org.jetbrains.kotlin.descriptors.SourceElement) : com.intellij.psi.PsiElement. This can lead to **NoSuchMethodError** exception at runtime.
+Method org.jetbrains.android.intentions.AndroidCreateOnClickHandlerAction.addHandlerMethod(com.intellij.openapi.project.Project project, com.intellij.psi.PsiClass psiClass, java.lang.String methodName, java.lang.String methodParamType) : com.intellij.psi.PsiMethod contains an *invokestatic* instruction referencing an unresolved method org.jetbrains.kotlin.idea.core.GenerateUtilKt.insertMember(com.intellij.openapi.editor.Editor, org.jetbrains.kotlin.psi.KtClassOrObject, org.jetbrains.kotlin.psi.KtDeclaration, com.intellij.psi.PsiElement) : org.jetbrains.kotlin.psi.KtDeclaration. This can lead to **NoSuchMethodError** exception at runtime.
 Class com.android.tools.idea.wizard.dynamic.DynamicWizardStepWithDescription overrides the final method com.android.tools.idea.wizard.dynamic.DynamicWizardStep.getDisposable() : com.intellij.openapi.Disposable. This can lead to **VerifyError** exception at runtime.
+Method com.android.tools.idea.dagger.DaggerAnnotatedElementsSearchKt.<clinit>() : void contains an *invokespecial* instruction referencing an unresolved constructor org.jetbrains.kotlin.codegen.state.KotlinTypeMapper.<init>(org.jetbrains.kotlin.resolve.BindingContext, org.jetbrains.kotlin.codegen.ClassBuilderMode, java.lang.String, org.jetbrains.kotlin.config.LanguageVersionSettings, boolean, org.jetbrains.kotlin.codegen.state.IncompatibleClassTracker, org.jetbrains.kotlin.config.JvmTarget, boolean, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, int, kotlin.jvm.internal.DefaultConstructorMarker). This can lead to **NoSuchMethodError** exception at runtime.
+Method com.android.tools.idea.nav.safeargs.psi.kotlin.LightArgsKtClass.ArgsClassScope.properties$1$1.invoke(com.android.tools.idea.nav.safeargs.index.NavArgumentData arg) : org.jetbrains.kotlin.descriptors.PropertyDescriptor contains an *invokestatic* instruction referencing an unresolved method org.jetbrains.kotlin.resolve.source.KotlinSourceElementKt.getPsi(org.jetbrains.kotlin.descriptors.SourceElement) : com.intellij.psi.PsiElement. This can lead to **NoSuchMethodError** exception at runtime.
 Concrete class com.android.tools.idea.compose.preview.ComposePreviewRepresentationProvider.createRepresentation$1 inherits from kotlin.jvm.internal.FunctionAdapter but doesn't implement the abstract method getFunctionDelegate() : Function. This can lead to **AbstractMethodError** exception at runtime.
 Package 'com.android.dx' is not found along with its 8 classes.
 Probably the package 'com.android.dx' belongs to a library or dependency that is not resolved by the checker.
@@ -2129,6 +2137,20 @@ The following classes of 'com.android.dx' are not resolved (only 5 most used cla
   Class com.android.dx.dex.cf.CfOptions is referenced in
     org.jetbrains.kotlin.android.debugger.AndroidDexWrapper.dex(Collection classes) : byte
 
+Method com.android.tools.idea.nav.safeargs.module.KtDescriptorCacheModuleService.createDirectionsPackages$2.invoke(com.android.tools.idea.nav.safeargs.index.NavDestinationData destination) : com.android.tools.idea.nav.safeargs.module.KtDescriptorCacheModuleService.QualifiedDescriptor contains an *invokestatic* instruction referencing an unresolved method org.jetbrains.kotlin.resolve.source.KotlinSourceElementKt.getPsi(org.jetbrains.kotlin.descriptors.SourceElement) : com.intellij.psi.PsiElement. This can lead to **NoSuchMethodError** exception at runtime.
+Package 'kotlinx.parcelize' is not found along with its 3 classes.
+Probably the package 'kotlinx.parcelize' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'kotlinx.parcelize' are not resolved:
+  Class kotlinx.parcelize.Parcelize is referenced in
+    org.jetbrains.kotlin.android.ParcelableUtilKt.<clinit>() : void
+    org.jetbrains.kotlin.android.parcel.quickfixes.AnnotateWithParcelizeQuickFix.invoke(KtPsiFactory ktPsiFactory, KtClassOrObject element) : void
+  Class kotlinx.parcelize.IgnoredOnParcel is referenced in
+    org.jetbrains.kotlin.android.parcel.quickfixes.ParcelableAddIgnoreOnParcelAnnotationQuickfix.invoke(KtPsiFactory ktPsiFactory, KtProperty element) : void
+  Class kotlinx.parcelize.Parceler is referenced in
+    org.jetbrains.kotlin.android.parcel.quickfixes.ParcelMigrateToParcelizeQuickFix.<clinit>() : void
+
+Constructor com.android.tools.idea.nav.safeargs.psi.kotlin.SafeArgsKtCompletionContributor$1.createLookUpElement.lookupObject$1.<init>(org.jetbrains.kotlin.descriptors.ClassDescriptor $classDescriptor) contains an *invokestatic* instruction referencing an unresolved method org.jetbrains.kotlin.resolve.source.KotlinSourceElementKt.getPsi(org.jetbrains.kotlin.descriptors.SourceElement) : com.intellij.psi.PsiElement. This can lead to **NoSuchMethodError** exception at runtime.
 
 
 
@@ -2142,6 +2164,7 @@ The following classes of 'org.jetbrains.kotlin.fir.lightTree' are not resolved:
   Class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir is referenced in
     org.jetbrains.kotlin.fir.analysis.FirAnalyzerFacade.buildRawFir() : void
 
+Concrete class org.jetbrains.kotlin.incremental.LocalFileKotlinClass inherits from org.jetbrains.kotlin.load.kotlin.KotlinJvmBinaryClass but doesn't implement the abstract method getContainingLibrary() : String. This can lead to **AbstractMethodError** exception at runtime.
 Package 'kotlinx.io' is not found along with its 2 classes.
 Probably the package 'kotlinx.io' belongs to a library or dependency that is not resolved by the checker.
 It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
@@ -2166,23 +2189,6 @@ The following classes of 'org.jetbrains.idea.maven.plugins' are not resolved:
     org.jetbrains.kotlin.idea.maven.MavenJvmTargetsCompletionProvider
     org.jetbrains.kotlin.idea.maven.MavenLanguageVersionsCompletionProvider
     ...and 5 other places...
-
-Package 'android.view' is not found along with its class android.view.View.
-Probably the package 'android.view' belongs to a library or dependency that is not resolved by the checker.
-It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
-The following classes of 'android.view' are not resolved:
-  Class android.view.View is referenced in
-    kotlinx.android.extensions.LayoutContainer.getContainerView() : View
-
-Package 'android.os' is not found along with its class android.os.Parcel.
-Probably the package 'android.os' belongs to a library or dependency that is not resolved by the checker.
-It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
-The following classes of 'android.os' are not resolved:
-  Class android.os.Parcel is referenced in
-    kotlinx.android.parcel.Parceler.create(Parcel arg0) : T
-    kotlinx.android.parcel.Parceler.write(T arg0, Parcel arg1, int arg2) : void
-    kotlinx.parcelize.Parceler.create(Parcel arg0) : T
-    kotlinx.parcelize.Parceler.write(T arg0, Parcel arg1, int arg2) : void
 
 Package 'org.jetbrains.idea.maven.project' is not found along with its class org.jetbrains.idea.maven.project.MavenProjectsManager.
 Probably the package 'org.jetbrains.idea.maven.project' belongs to a library or dependency that is not resolved by the checker.
