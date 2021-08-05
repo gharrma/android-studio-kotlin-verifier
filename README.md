@@ -25,3 +25,5 @@ diff.txt
 ```
 
 The file `diff.txt` will show all binary compatibility issues introduced by the new Kotlin plugin.
+
+See [here](https://github.com/gharrma/android-studio-kotlin-verifier/commit/c1ebd0264e77f029758e1cf59d3f3d47f00c4d55) for an example diff showing incompatibilities between Android Studio Arctic Fox and Kotlin plugin 1.5.30-M1.
