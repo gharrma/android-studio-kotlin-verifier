@@ -4,7 +4,7 @@ plugins {
 }
 
 application {
-    mainClass.set("com.android.tools.experimental.Main")
+    mainClass.set("com.android.tools.experimental.StudioKotlinVerifier")
 }
 
 repositories {

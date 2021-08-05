@@ -1,4 +1,4 @@
-@file:JvmName("Main")
+@file:JvmName("StudioKotlinVerifier")
 
 package com.android.tools.experimental
 
