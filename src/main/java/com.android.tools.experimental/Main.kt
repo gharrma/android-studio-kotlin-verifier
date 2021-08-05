@@ -70,6 +70,8 @@ fun runPluginVerifier(ideHome: Path, plugins: List<Path>, reportDir: Path, verif
         "-offline",
         "-verification-reports-dir",
         reportDir.pathString,
+        "-runtime-dir",
+        ideHome.resolve("jre").pathString,
         ideHome.pathString,
     )
 
