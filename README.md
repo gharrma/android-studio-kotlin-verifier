@@ -20,10 +20,11 @@ This will create several files inside `/path/to/out/dir`:
 ```
 all-errors-before.txt
 all-errors-after.txt
-diff.txt
+new-errors.txt
 ...
 ```
 
-The file `diff.txt` will show all binary compatibility issues introduced by the new Kotlin plugin.
+The file `new-errors.txt` will show all binary compatibility issues introduced by the new Kotlin plugin.
 
-See [here](https://github.com/gharrma/android-studio-kotlin-verifier/commit/c1ebd0264e77f029758e1cf59d3f3d47f00c4d55) for an example diff showing incompatibilities between Android Studio Arctic Fox and Kotlin plugin 1.5.30-M1.
+[Here](https://github.com/gharrma/android-studio-kotlin-verifier/commit/c1ebd0264e77f029758e1cf59d3f3d47f00c4d55)
+is an example diff showing incompatibilities between Android Studio Arctic Fox and Kotlin plugin 1.5.30-M1.

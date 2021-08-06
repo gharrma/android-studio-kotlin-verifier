@@ -49,12 +49,9 @@ fun main(args: Array<String>) {
     writeAllVerifierErrors(reportDirAfter, errorsAfter)
 
     // Diff the results.
-    val diff = outDir.resolve("diff.txt")
-    println("Writing a diff at $diff")
-    ProcessBuilder("diff", errorsBefore.pathString, errorsAfter.pathString)
-        .redirectOutput(diff.toFile())
-        .start()
-        .waitFor()
+    val diff = outDir.resolve("new-errors.txt")
+    val newErrors = errorsAfter.readLines().toSet() - errorsBefore.readLines()
+    diff.writeLines(newErrors)
 }
 
 fun runPluginVerifier(ideHome: Path, plugins: List<Path>, reportDir: Path, verifierHome: Path) {
