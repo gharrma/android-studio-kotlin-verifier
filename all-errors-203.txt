@@ -2096,6 +2096,18 @@ Method org.zmlx.hg4idea.mq.MqPatchDetails.MqPatchEnum.<clinit>() : void referenc
 Plugin: org.jetbrains.android
 ================================================
 Method com.android.tools.idea.testartifacts.instrumented.testsuite.actions.ExportAndroidTestResultsAction.showExportTestResultsDialog(ExportTestResultsConfiguration exportConfig, Project project, String defaultFileName) : File references property inspections.settings.overwrite.action.text that is not found in resource bundle messages.TestRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Package 'kotlinx.parcelize' is not found along with its 3 classes.
+Probably the package 'kotlinx.parcelize' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'kotlinx.parcelize' are not resolved:
+  Class kotlinx.parcelize.Parcelize is referenced in
+    org.jetbrains.kotlin.android.ParcelableUtilKt.<clinit>() : void
+    org.jetbrains.kotlin.android.parcel.quickfixes.AnnotateWithParcelizeQuickFix.invoke(KtPsiFactory ktPsiFactory, KtClassOrObject element) : void
+  Class kotlinx.parcelize.IgnoredOnParcel is referenced in
+    org.jetbrains.kotlin.android.parcel.quickfixes.ParcelableAddIgnoreOnParcelAnnotationQuickfix.invoke(KtPsiFactory ktPsiFactory, KtProperty element) : void
+  Class kotlinx.parcelize.Parceler is referenced in
+    org.jetbrains.kotlin.android.parcel.quickfixes.ParcelMigrateToParcelizeQuickFix.<clinit>() : void
+
 Method org.jetbrains.android.newProject.AndroidProjectStructureDetector.AndroidProjectRoot.getRootTypeName() : String references property group.Internal.Android.text that is not found in resource bundle messages.AndroidBundle. This can lead to **MissingResourceException** exception at runtime.
 Class com.android.tools.idea.wizard.dynamic.DynamicWizardStepWithDescription overrides the final method com.android.tools.idea.wizard.dynamic.DynamicWizardStep.getDisposable() : com.intellij.openapi.Disposable. This can lead to **VerifyError** exception at runtime.
 Concrete class com.android.tools.idea.compose.preview.ComposePreviewRepresentationProvider.createRepresentation$1 inherits from kotlin.jvm.internal.FunctionAdapter but doesn't implement the abstract method getFunctionDelegate() : Function. This can lead to **AbstractMethodError** exception at runtime.
@@ -2120,13 +2132,7 @@ The following classes of 'com.android.dx' are not resolved (only 5 most used cla
 ================================================
 Plugin: org.jetbrains.kotlin
 ================================================
-Package 'org.jetbrains.kotlin.fir.lightTree' is not found along with its class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir.
-Probably the package 'org.jetbrains.kotlin.fir.lightTree' belongs to a library or dependency that is not resolved by the checker.
-It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
-The following classes of 'org.jetbrains.kotlin.fir.lightTree' are not resolved:
-  Class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir is referenced in
-    org.jetbrains.kotlin.fir.analysis.FirAnalyzerFacade.buildRawFir() : void
-
+Concrete class org.jetbrains.kotlin.incremental.LocalFileKotlinClass inherits from org.jetbrains.kotlin.load.kotlin.KotlinJvmBinaryClass but doesn't implement the abstract method getContainingLibrary() : String. This can lead to **AbstractMethodError** exception at runtime.
 Package 'kotlinx.io' is not found along with its 2 classes.
 Probably the package 'kotlinx.io' belongs to a library or dependency that is not resolved by the checker.
 It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
@@ -2140,6 +2146,7 @@ The following classes of 'kotlinx.io' are not resolved:
     org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readPacket(int arg0, ByteReadChannel arg1, Continuation arg2) : Object
     org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readActor$1.invokeSuspend(Object $result) : Object
 
+Method org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.DefaultAuthorizableClient.sendNoReplyMessage(org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.Server.AnyMessage msg) : void contains an *invokeinterface* instruction referencing an unresolved method kotlinx.coroutines.channels.SendChannel.trySend-JP2dKIU(java.lang.Object) : java.lang.Object. This can lead to **NoSuchMethodError** exception at runtime.
 Package 'org.jetbrains.idea.maven.plugins' is not found along with its class org.jetbrains.idea.maven.plugins.api.MavenFixedValueReferenceProvider.
 Probably the package 'org.jetbrains.idea.maven.plugins' belongs to a library or dependency that is not resolved by the checker.
 It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
@@ -2152,22 +2159,13 @@ The following classes of 'org.jetbrains.idea.maven.plugins' are not resolved:
     org.jetbrains.kotlin.idea.maven.MavenLanguageVersionsCompletionProvider
     ...and 5 other places...
 
-Package 'android.view' is not found along with its class android.view.View.
-Probably the package 'android.view' belongs to a library or dependency that is not resolved by the checker.
+Package 'org.jetbrains.kotlin.fir.lightTree' is not found along with its class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir.
+Probably the package 'org.jetbrains.kotlin.fir.lightTree' belongs to a library or dependency that is not resolved by the checker.
 It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
-The following classes of 'android.view' are not resolved:
-  Class android.view.View is referenced in
-    kotlinx.android.extensions.LayoutContainer.getContainerView() : View
-
-Package 'android.os' is not found along with its class android.os.Parcel.
-Probably the package 'android.os' belongs to a library or dependency that is not resolved by the checker.
-It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
-The following classes of 'android.os' are not resolved:
-  Class android.os.Parcel is referenced in
-    kotlinx.android.parcel.Parceler.create(Parcel arg0) : T
-    kotlinx.android.parcel.Parceler.write(T arg0, Parcel arg1, int arg2) : void
-    kotlinx.parcelize.Parceler.create(Parcel arg0) : T
-    kotlinx.parcelize.Parceler.write(T arg0, Parcel arg1, int arg2) : void
+The following classes of 'org.jetbrains.kotlin.fir.lightTree' are not resolved:
+  Class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir is referenced in
+    org.jetbrains.kotlin.fir.analysis.FirAnalyzerFacade.buildRawFir() : void
+    org.jetbrains.kotlin.fir.pipeline.BuildFirKt.buildFirViaLightTree(FirSession $this$buildFirViaLightTree, Collection files) : List
 
 Package 'org.jetbrains.idea.maven.project' is not found along with its class org.jetbrains.idea.maven.project.MavenProjectsManager.
 Probably the package 'org.jetbrains.idea.maven.project' belongs to a library or dependency that is not resolved by the checker.
