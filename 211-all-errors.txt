@@ -135,21 +135,6 @@ Class com.android.tools.idea.wizard.dynamic.DynamicWizardStepWithDescription ove
 ================================================
 Plugin: org.jetbrains.kotlin
 ================================================
-Package 'org.jetbrains.kotlin.fir.lightTree' is not found along with its class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir.
-Probably the package 'org.jetbrains.kotlin.fir.lightTree' belongs to a library or dependency that is not resolved by the checker.
-It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
-The following classes of 'org.jetbrains.kotlin.fir.lightTree' are not resolved:
-  Class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir is referenced in
-    org.jetbrains.kotlin.fir.analysis.FirAnalyzerFacade.buildRawFir() : void
-
-Package 'android.os' is not found along with its class android.os.Parcel.
-Probably the package 'android.os' belongs to a library or dependency that is not resolved by the checker.
-It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
-The following classes of 'android.os' are not resolved:
-  Class android.os.Parcel is referenced in
-    kotlinx.parcelize.Parceler.create(Parcel arg0) : T
-    kotlinx.parcelize.Parceler.write(T arg0, Parcel arg1, int arg2) : void
-
 Concrete class org.jetbrains.kotlin.incremental.LocalFileKotlinClass inherits from org.jetbrains.kotlin.load.kotlin.KotlinJvmBinaryClass but doesn't implement the abstract method getContainingLibrary() : String. This can lead to **AbstractMethodError** exception at runtime.
 Package 'kotlinx.io' is not found along with its 2 classes.
 Probably the package 'kotlinx.io' belongs to a library or dependency that is not resolved by the checker.
@@ -176,6 +161,15 @@ The following classes of 'org.jetbrains.idea.maven.plugins' are not resolved:
     org.jetbrains.kotlin.idea.maven.MavenLanguageVersionsCompletionProvider
     ...and 5 other places...
 
+Package 'org.jetbrains.kotlin.fir.lightTree' is not found along with its class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir.
+Probably the package 'org.jetbrains.kotlin.fir.lightTree' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'org.jetbrains.kotlin.fir.lightTree' are not resolved:
+  Class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir is referenced in
+    org.jetbrains.kotlin.fir.analysis.FirAnalyzerFacade.buildRawFir() : void
+    org.jetbrains.kotlin.fir.pipeline.BuildFirKt.buildFirViaLightTree(FirSession $this$buildFirViaLightTree, Collection files) : List
+
+Method org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.DefaultAuthorizableClient.sendNoReplyMessage(org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.Server.AnyMessage msg) : void contains an *invokeinterface* instruction referencing an unresolved method kotlinx.coroutines.channels.SendChannel.trySend-JP2dKIU(java.lang.Object) : java.lang.Object. This can lead to **NoSuchMethodError** exception at runtime.
 Package 'org.jetbrains.idea.maven.project' is not found along with its class org.jetbrains.idea.maven.project.MavenProjectsManager.
 Probably the package 'org.jetbrains.idea.maven.project' belongs to a library or dependency that is not resolved by the checker.
 It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
