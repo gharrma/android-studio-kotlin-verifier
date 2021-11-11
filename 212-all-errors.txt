@@ -1,0 +1,360 @@
+================================================
+Plugin: Git4Idea
+================================================
+Method git4idea.update.GitRebaseOverMergeProblem.Decision.<clinit>() : void references property CANCEL_OPERATION that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.config.UpdateMethod.<clinit>() : void references property REBASE that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.update.GitRebaseOverMergeProblem.Decision.<clinit>() : void references property MERGE_INSTEAD that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.config.GitIncomingCheckStrategy.<clinit>() : void references property Never that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.config.UpdateMethod.<clinit>() : void references property BRANCH_DEFAULT that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.reset.GitResetMode.<clinit>() : void references property SOFT that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.config.UpdateMethod.<clinit>() : void references property MERGE that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.reset.GitResetMode.<clinit>() : void references property KEEP that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.ui.GitResetDialog.ResetMode.<clinit>() : void references property SOFT that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.ui.GitResetDialog.ResetMode.<clinit>() : void references property MIXED that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.reset.GitResetMode.<clinit>() : void references property HARD that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.reset.GitResetMode.<clinit>() : void references property MIXED that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.config.GitIncomingCheckStrategy.<clinit>() : void references property Always that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.config.GitIncomingCheckStrategy.<clinit>() : void references property Auto that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.update.GitRebaseOverMergeProblem.Decision.<clinit>() : void references property REBASE_ANYWAY that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+Method git4idea.ui.GitResetDialog.ResetMode.<clinit>() : void references property HARD that is not found in resource bundle messages.GitBundle. This can lead to **MissingResourceException** exception at runtime.
+
+
+
+================================================
+Plugin: com.google.gct.core
+================================================
+Method com.google.gct.idea.settings.ImportSettings.doImport(String path) : void references property error.cannot.find.file that is not found in resource bundle messages.IdeBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.idea.settings.ImportSettings.doImport(String path) : void references property error.reading.settings.file.2 that is not found in resource bundle messages.IdeBundle. This can lead to **MissingResourceException** exception at runtime.
+
+
+
+================================================
+Plugin: com.google.gct.testing
+================================================
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.appendSuiteStatusColorPresentation(GoogleCloudTestProxy proxy, ColoredTableCellRenderer renderer) : void references property sm.test.runner.ui.tabs.statistics.columns.results.count.msg.errors that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.<clinit>() : void references property sm.test.runner.ui.tabs.statistics.columns.duration.no.tests that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.<clinit>() : void references property sm.test.runner.ui.tests.tree.presentation.labels.milliseconds that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.appendSuiteStatusColorPresentation(GoogleCloudTestProxy proxy, ColoredTableCellRenderer renderer) : void references property sm.test.runner.ui.tabs.statistics.columns.results.count.msg.failed that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.<clinit>() : void references property sm.test.runner.ui.tests.tree.presentation.labels.seconds that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.<clinit>() : void references property sm.test.runner.ui.tabs.statistics.columns.duration.unknown that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.appendSuiteStatusColorPresentation(GoogleCloudTestProxy proxy, ColoredTableCellRenderer renderer) : void references property sm.test.runner.ui.tabs.statistics.columns.results.count.msg.passed that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.<clinit>() : void references property sm.test.runner.ui.tabs.statistics.columns.duration.not.run that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.<clinit>() : void references property sm.test.runner.ui.tabs.statistics.columns.duration.prefix.running that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.<clinit>() : void references property sm.test.runner.ui.tabs.statistics.columns.duration.prefix.terminated that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.<clinit>() : void references property sm.test.runner.ui.tabs.statistics.columns.results.no.tests that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.gct.testing.results.GoogleCloudTestsPresentationUtil.appendSuiteStatusColorPresentation(GoogleCloudTestProxy proxy, ColoredTableCellRenderer renderer) : void references property sm.test.runner.ui.tabs.statistics.columns.results.count.msg.ignored that is not found in resource bundle messages.SmRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+
+
+
+================================================
+Plugin: com.google.services.firebase
+================================================
+Method com.google.services.firebase.view.ConnectToOnlineProjectPanel.doValidate() : ValidationInfo references property ui.connect.input.panel.validation.invalid.project.display.name that is not found in resource bundle messages.FirebaseBundle. This can lead to **MissingResourceException** exception at runtime.
+Constructor com.google.services.firebase.view.ConnectToOnlineProjectPanel.<init>(GoogleLogin googleLogin, Module androidModule, FirebaseConfig firebaseConfig, Collection existingProjects, URL tosUrl) references property ui.connect.input.panel.validation.project.not.selected that is not found in resource bundle messages.FirebaseBundle. This can lead to **MissingResourceException** exception at runtime.
+Constructor com.google.services.firebase.view.ConnectToOnlineProjectPanel.<init>(GoogleLogin googleLogin, Module androidModule, FirebaseConfig firebaseConfig, Collection existingProjects, URL tosUrl) references property ui.connect.input.panel.label.country that is not found in resource bundle messages.FirebaseBundle. This can lead to **MissingResourceException** exception at runtime.
+Constructor com.google.services.firebase.view.ConnectToOnlineProjectPanel.<init>(GoogleLogin googleLogin, Module androidModule, FirebaseConfig firebaseConfig, Collection existingProjects, URL tosUrl) references property ui.tosCopy that is not found in resource bundle messages.FirebaseBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.google.services.firebase.view.ConnectToOnlineProjectPanel.doValidate() : ValidationInfo references property ui.connect.input.panel.validation.project.not.selected that is not found in resource bundle messages.FirebaseBundle. This can lead to **MissingResourceException** exception at runtime.
+Constructor com.google.services.firebase.view.ConnectToOnlineProjectPanel.<init>(GoogleLogin googleLogin, Module androidModule, FirebaseConfig firebaseConfig, Collection existingProjects, URL tosUrl) references property ui.connect.input.panel.label.country.moreInfo that is not found in resource bundle messages.FirebaseBundle. This can lead to **MissingResourceException** exception at runtime.
+Constructor com.google.services.firebase.view.ConnectToOnlineProjectPanel.<init>(GoogleLogin googleLogin, Module androidModule, FirebaseConfig firebaseConfig, Collection existingProjects, URL tosUrl) references property ui.connect.dialog.dataSharing that is not found in resource bundle messages.FirebaseBundle. This can lead to **MissingResourceException** exception at runtime.
+Constructor com.google.services.firebase.view.ConnectToOnlineProjectPanel.<init>(GoogleLogin googleLogin, Module androidModule, FirebaseConfig firebaseConfig, Collection existingProjects, URL tosUrl) references property ui.connect.dialog.smallPrint that is not found in resource bundle messages.FirebaseBundle. This can lead to **MissingResourceException** exception at runtime.
+
+
+
+================================================
+Plugin: com.intellij.java
+================================================
+Method com.siyeh.ig.performance.ObjectAllocationInLoopInspection.Kind.<clinit>() : void references property ARRAY_INITIALIZER that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.codeInspection.dataFlow.Mutability.<clinit>() : void references property UNKNOWN that is not found in resource bundle messages.JavaAnalysisBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.controlflow.IfStatementWithIdenticalBranchesInspection.CommonPartType.<clinit>() : void references property EXTRACT_SIDE_EFFECTS that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property INTERFACE that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property INITIALIZER that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.codeInspection.dataFlow.java.JavaDfaListener.callBeforeExpressionPush(DfaValue value, PsiExpression expression, DfaMemoryState state, PsiExpression anchor) : void contains an *invokeinterface* instruction referencing a private method com.intellij.codeInspection.dataFlow.java.JavaDfaListener.callBeforeExpressionPush(DfaValue value, PsiExpression expression, DfaMemoryState state, PsiExpression anchor) : void. This can lead to **IncompatibleClassChangeError** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property LABEL that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property RECEIVER_PARAMETER that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property ANONYMOUS_CLASS that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property STATEMENT that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property PACKAGE that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property TYPE_ARGUMENTS that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.codeInspection.dataFlow.java.JavaDfaListener.beforePush(DfaValue[] args, DfaValue value, DfaAnchor anchor, DfaMemoryState state) : void contains an *invokeinterface* instruction referencing a private method com.intellij.codeInspection.dataFlow.java.JavaDfaListener.callBeforeExpressionPush(DfaValue value, PsiExpression expression, DfaMemoryState state, PsiExpression anchor) : void. This can lead to **IncompatibleClassChangeError** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property ABSTRACT_METHOD that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.performance.ObjectAllocationInLoopInspection.Kind.<clinit>() : void references property CAPTURING_LAMBDA that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.controlflow.IfStatementWithIdenticalBranchesInspection.CommonPartType.<clinit>() : void references property COMPLETE_DUPLICATE that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property CONSTRUCTOR that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property PATTERN_VARIABLE that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property EXPRESSION that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.performance.ObjectAllocationInLoopInspection.Kind.<clinit>() : void references property METHOD_CALL that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.performance.ObjectAllocationInLoopInspection.Kind.<clinit>() : void references property STRING_CONCAT that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property ANNOTATION that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property RECORD that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.controlflow.IfStatementWithIdenticalBranchesInspection.CommonPartType.<clinit>() : void references property WHOLE_BRANCH that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property CLASS that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property UNKNOWN that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property MODULE that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.jetbrains.java.generate.config.InsertWhere.<clinit>() : void references property AFTER_EQUALS_AND_HASHCODE that is not found in resource bundle messages.JavaAnalysisBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.performance.ObjectAllocationInLoopInspection.Kind.<clinit>() : void references property METHOD_REFERENCE that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.ide.actions.JavaCreateTemplateInPackageAction.createFile(String name, String templateName, PsiDirectory dir) : T references property progress.title.looking.for.jdk that is not found in resource bundle messages.JavaBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property LOCAL_VARIABLE that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property EXTENDS_LIST that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property VARIABLE that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.codeInspection.dataFlow.Mutability.<clinit>() : void references property MUST_NOT_MODIFY that is not found in resource bundle messages.JavaAnalysisBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property ENUM that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.codeInspection.dataFlow.Mutability.<clinit>() : void references property UNMODIFIABLE that is not found in resource bundle messages.JavaAnalysisBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property METHOD_CALL that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.codeInspection.EnhancedSwitchMigrationInspection.ReplacementType.<clinit>() : void references property Expression that is not found in resource bundle messages.JavaBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.jetbrains.java.generate.config.InsertWhere.<clinit>() : void references property AT_THE_END_OF_A_CLASS that is not found in resource bundle messages.JavaAnalysisBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property RECORD_COMPONENT that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property TYPE_PARAMETER that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.controlflow.IfStatementWithIdenticalBranchesInspection.CommonPartType.<clinit>() : void references property VARIABLES_ONLY that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property THROWS_LIST that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.codeInspection.dataFlow.Mutability.<clinit>() : void references property MUTABLE that is not found in resource bundle messages.JavaAnalysisBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property PARAMETER that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property METHOD that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.codeInspection.EnhancedSwitchMigrationInspection.ReplacementType.<clinit>() : void references property Statement that is not found in resource bundle messages.JavaBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.jetbrains.java.generate.config.InsertWhere.<clinit>() : void references property AT_CARET that is not found in resource bundle messages.JavaAnalysisBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.controlflow.IfStatementWithIdenticalBranchesInspection.CommonPartType.<clinit>() : void references property WITH_VARIABLES_EXTRACT that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.controlflow.IfStatementWithIdenticalBranchesInspection.CommonPartType.<clinit>() : void references property WITHOUT_VARIABLES_EXTRACT that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property ENUM_CONSTANT that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property FIELD that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.psi.util.JavaElementKind.<clinit>() : void references property CONSTANT that is not found in resource bundle messages.JavaPsiBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.intellij.codeInspection.dataFlow.Mutability.<clinit>() : void references property UNMODIFIABLE_VIEW that is not found in resource bundle messages.JavaAnalysisBundle. This can lead to **MissingResourceException** exception at runtime.
+Method com.siyeh.ig.performance.ObjectAllocationInLoopInspection.Kind.<clinit>() : void references property NEW_OPERATOR that is not found in resource bundle messages.InspectionGadgetsBundle. This can lead to **MissingResourceException** exception at runtime.
+
+
+
+================================================
+Plugin: com.jetbrains.sh
+================================================
+Package 'org.jetbrains.plugins' is not found along with its 4 classes.
+Probably the package 'org.jetbrains.plugins' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'org.jetbrains.plugins' are not resolved:
+  Class org.jetbrains.plugins.terminal.ShellTerminalWidget is referenced in
+    com.intellij.sh.run.terminal.ShTerminalRunner.getSuitableProcess(Content content, String workingDirectory) : Pair
+    com.intellij.sh.run.terminal.ShTerminalRunner.run(Project project, String command, String workingDirectory, String title, boolean activateToolWindow) : void
+  Class org.jetbrains.plugins.terminal.TerminalView is referenced in
+    com.intellij.sh.run.terminal.ShTerminalRunner.getSuitableProcess(Content content, String workingDirectory) : Pair
+    com.intellij.sh.run.terminal.ShTerminalRunner.run(Project project, String command, String workingDirectory, String title, boolean activateToolWindow) : void
+  Class org.jetbrains.plugins.terminal.LocalTerminalDirectRunner is referenced in
+    com.intellij.sh.run.terminal.ShTerminalRunner.<clinit>() : void
+  Class org.jetbrains.plugins.terminal.arrangement.TerminalWorkingDirectoryManager is referenced in
+    com.intellij.sh.run.terminal.ShTerminalRunner.getSuitableProcess(Content content, String workingDirectory) : Pair
+
+Package 'com.maddyhome' is not found along with its 4 classes.
+Probably the package 'com.maddyhome' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'com.maddyhome' are not resolved:
+  Class com.maddyhome.idea.copyright.CopyrightProfile is referenced in
+    com.intellij.sh.copyright.ShUpdateCopyrightsProvider.createInstance(Project project, Module module, VirtualFile file, FileType base, CopyrightProfile options) : UpdateCopyright
+    com.intellij.sh.copyright.ShUpdatePsiFileCopyright.<init>(Project project, Module module, VirtualFile root, CopyrightProfile options)
+  Class com.maddyhome.idea.copyright.psi.UpdateCopyrightsProvider is referenced in
+    com.intellij.sh.copyright.ShUpdateCopyrightsProvider
+    com.intellij.sh.copyright.ShUpdateCopyrightsProvider.<init>()
+  Class com.maddyhome.idea.copyright.psi.UpdatePsiFileCopyright is referenced in
+    com.intellij.sh.copyright.ShUpdatePsiFileCopyright
+    com.intellij.sh.copyright.ShUpdatePsiFileCopyright.<init>(Project project, Module module, VirtualFile root, CopyrightProfile options)
+  Class com.maddyhome.idea.copyright.psi.UpdateCopyright is referenced in
+    com.intellij.sh.copyright.ShUpdateCopyrightsProvider.createInstance(Project project, Module module, VirtualFile file, FileType base, CopyrightProfile options) : UpdateCopyright
+
+
+
+
+================================================
+Plugin: hg4idea
+================================================
+Method org.zmlx.hg4idea.mq.MqPatchDetails.MqPatchEnum.<clinit>() : void references property Subject that is not found in resource bundle messages.HgBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.zmlx.hg4idea.mq.MqPatchDetails.MqPatchEnum.<clinit>() : void references property Branch that is not found in resource bundle messages.HgBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.zmlx.hg4idea.mq.MqPatchDetails.MqPatchEnum.<clinit>() : void references property Date that is not found in resource bundle messages.HgBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.zmlx.hg4idea.mq.MqPatchDetails.MqPatchEnum.<clinit>() : void references property Name that is not found in resource bundle messages.HgBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.zmlx.hg4idea.mq.MqPatchDetails.MqPatchEnum.<clinit>() : void references property Author that is not found in resource bundle messages.HgBundle. This can lead to **MissingResourceException** exception at runtime.
+
+
+
+================================================
+Plugin: org.intellij.groovy
+================================================
+Constructor org.jetbrains.plugins.groovy.gant.ant.AntBuilderMethod.<init>(PsiFile file, String name, Class antClass) references an unresolved class icons.AntIcons. This can lead to **NoSuchClassError** exception at runtime.
+Package 'com.intellij.byteCodeViewer' is not found along with its class com.intellij.byteCodeViewer.ClassSearcher.
+Probably the package 'com.intellij.byteCodeViewer' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'com.intellij.byteCodeViewer' are not resolved:
+  Class com.intellij.byteCodeViewer.ClassSearcher is referenced in
+    org.jetbrains.plugins.groovy.byteCodeViewer.GroovyScriptClassSearcher
+
+Package 'com.intellij.lang.ant' is not found along with its 3 classes.
+Probably the package 'com.intellij.lang.ant' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'com.intellij.lang.ant' are not resolved:
+  Class com.intellij.lang.ant.AntIntrospector is referenced in
+    org.jetbrains.plugins.groovy.gant.ant.AntBuilderMethod.processNestedElements(PsiScopeProcessor processor) : boolean
+  Class com.intellij.lang.ant.ReflectedProject is referenced in
+    org.jetbrains.plugins.groovy.gant.ant.AntTasksProvider.AntClassLoader.lambda$new$0() : Map
+  Class com.intellij.lang.ant.dom.AntDomExtender is referenced in
+    org.jetbrains.plugins.groovy.gant.ant.AntBuilderMethod.processNestedElements(PsiScopeProcessor processor) : boolean
+
+
+
+
+================================================
+Plugin: org.jetbrains.android
+================================================
+Method com.android.tools.idea.testartifacts.instrumented.testsuite.actions.ExportAndroidTestResultsAction.showExportTestResultsDialog(ExportTestResultsConfiguration exportConfig, Project project, String defaultFileName) : File references property inspections.settings.overwrite.action.text that is not found in resource bundle messages.TestRunnerBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.jetbrains.android.newProject.AndroidProjectStructureDetector.AndroidProjectRoot.getRootTypeName() : String references property group.Internal.Android.text that is not found in resource bundle messages.AndroidBundle. This can lead to **MissingResourceException** exception at runtime.
+Class com.android.tools.idea.wizard.dynamic.DynamicWizardStepWithDescription overrides the final method com.android.tools.idea.wizard.dynamic.DynamicWizardStep.getDisposable() : com.intellij.openapi.Disposable. This can lead to **VerifyError** exception at runtime.
+
+
+
+================================================
+Plugin: org.jetbrains.kotlin
+================================================
+Package 'org.jetbrains.kotlin.fir.lightTree' is not found along with its class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir.
+Probably the package 'org.jetbrains.kotlin.fir.lightTree' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'org.jetbrains.kotlin.fir.lightTree' are not resolved:
+  Class org.jetbrains.kotlin.fir.lightTree.LightTree2Fir is referenced in
+    org.jetbrains.kotlin.fir.analysis.FirAnalyzerFacade.buildRawFir() : void
+
+Package 'android.os' is not found along with its class android.os.Parcel.
+Probably the package 'android.os' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'android.os' are not resolved:
+  Class android.os.Parcel is referenced in
+    kotlinx.parcelize.Parceler.create(Parcel arg0) : T
+    kotlinx.parcelize.Parceler.write(T arg0, Parcel arg1, int arg2) : void
+
+Concrete class org.jetbrains.kotlin.incremental.LocalFileKotlinClass inherits from org.jetbrains.kotlin.load.kotlin.KotlinJvmBinaryClass but doesn't implement the abstract method getContainingLibrary() : String. This can lead to **AbstractMethodError** exception at runtime.
+Package 'kotlinx.io' is not found along with its 2 classes.
+Probably the package 'kotlinx.io' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'kotlinx.io' are not resolved:
+  Class kotlinx.io.core.ByteReadPacket is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readLength(ByteReadChannel arg0, Continuation arg1) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readPacket(int arg0, ByteReadChannel arg1, Continuation arg2) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readActor$1.invokeSuspend(Object $result) : Object
+  Class kotlinx.io.core.StringsKt is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readLength(ByteReadChannel arg0, Continuation arg1) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readPacket(int arg0, ByteReadChannel arg1, Continuation arg2) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readActor$1.invokeSuspend(Object $result) : Object
+
+Method org.jetbrains.kotlin.idea.vcs.BunchFileCheckInHandlerFactory.BunchCheckInHandler.beforeCheckin(CommitExecutor, PairConsumer) : CheckinHandler.ReturnResult contains an *invokestatic* instruction referencing kotlin.io.path.PathsKt.getPathString(java.nio.file.Path) : java.lang.String which is resolved to a private method kotlin.io.path.PathsKt__PathUtilsKt.getPathString(java.nio.file.Path) : java.lang.String inaccessible to a class org.jetbrains.kotlin.idea.vcs.BunchFileCheckInHandlerFactory.BunchCheckInHandler. This can lead to **IllegalAccessError** exception at runtime.
+Package 'org.jetbrains.idea.maven.wizards' is not found along with its class org.jetbrains.idea.maven.wizards.MavenWizardBundle.
+Probably the package 'org.jetbrains.idea.maven.wizards' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'org.jetbrains.idea.maven.wizards' are not resolved:
+  Class org.jetbrains.idea.maven.wizards.MavenWizardBundle is referenced in
+    org.jetbrains.kotlin.tools.projectWizard.MavenKotlinBuildSystemType.advancedSettings(MavenKotlinBuildSystemSettings settings) : DialogPanel
+    org.jetbrains.kotlin.tools.projectWizard.MavenKotlinBuildSystemType.advancedSettings$.inlined.panel.lambda$1$1.invoke(Row $this$row) : void
+    org.jetbrains.kotlin.tools.projectWizard.MavenKotlinBuildSystemType.advancedSettings$.inlined.panel.lambda$1$2.invoke(Row $this$row) : void
+    org.jetbrains.kotlin.tools.projectWizard.MavenKotlinBuildSystemType.advancedSettings$.inlined.panel.lambda$1$3.invoke(Row $this$row) : void
+
+Package 'org.jetbrains.idea.maven.plugins' is not found along with its class org.jetbrains.idea.maven.plugins.api.MavenFixedValueReferenceProvider.
+Probably the package 'org.jetbrains.idea.maven.plugins' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'org.jetbrains.idea.maven.plugins' are not resolved:
+  Class org.jetbrains.idea.maven.plugins.api.MavenFixedValueReferenceProvider is referenced in
+    org.jetbrains.kotlin.idea.maven.MavenApiVersionsCompletionProvider
+    org.jetbrains.kotlin.idea.maven.MavenJsMainCallCompletionProvider
+    org.jetbrains.kotlin.idea.maven.MavenJsModuleKindsCompletionProvider
+    org.jetbrains.kotlin.idea.maven.MavenJvmTargetsCompletionProvider
+    org.jetbrains.kotlin.idea.maven.MavenLanguageVersionsCompletionProvider
+    ...and 5 other places...
+
+Package 'org.jetbrains.idea.maven.project' is not found along with its class org.jetbrains.idea.maven.project.MavenProjectsManager.
+Probably the package 'org.jetbrains.idea.maven.project' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'org.jetbrains.idea.maven.project' are not resolved:
+  Class org.jetbrains.idea.maven.project.MavenProjectsManager is referenced in
+    org.jetbrains.kotlin.tools.projectWizard.wizard.service.MavenProjectImporter.importProject(Path path) : void
+
+Package 'kotlinx.coroutines.io' is not found along with its 4 classes.
+Probably the package 'kotlinx.coroutines.io' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'kotlinx.coroutines.io' are not resolved:
+  Class kotlinx.coroutines.io.ByteReadChannel is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.<init>(ByteReadChannel readChannel, Logger log)
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readActor$1.$readChannel : ByteReadChannel
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readActor$1$1$1$1.$readChannel : ByteReadChannel
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readLength(ByteReadChannel arg0, Continuation arg1) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.StreamWrappersKt.toWrapper(ByteReadChannel $this$toWrapper, Logger log) : ByteReadChannelWrapper
+    ...and 4 other places...
+  Class kotlinx.coroutines.io.ByteWriteChannel is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteWriteChannelWrapper.<init>(ByteWriteChannel writeChannel, Logger log)
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteWriteChannelWrapper.access$tryWrite(ByteWriteChannelWrapper $this, byte[] b, ByteWriteChannel writeChannel, Continuation $completion) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteWriteChannelWrapper.tryWrite(byte arg0, ByteWriteChannel arg1, Continuation arg2) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteWriteChannelWrapper.writeActor$1.$writeChannel : ByteWriteChannel
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteWriteChannelWrapper.writeActor$1.<init>(ByteWriteChannel $writeChannel, ByteWriteChannelWrapper $receiver, Continuation $completion)
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteWriteChannelWrapper.writeActor$1.invokeSuspend(Object $result) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.StreamWrappersKt.toWrapper(ByteWriteChannel $this$toWrapper, Logger log) : ByteWriteChannelWrapper
+  Class kotlinx.coroutines.io.ByteReadChannelKt is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readLength(ByteReadChannel arg0, Continuation arg1) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readPacket(int arg0, ByteReadChannel arg1, Continuation arg2) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteReadChannelWrapper.readActor$1.invokeSuspend(Object $result) : Object
+  Class kotlinx.coroutines.io.ByteWriteChannelKt is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteWriteChannelWrapper.tryWrite(byte arg0, ByteWriteChannel arg1, Continuation arg2) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ByteWriteChannelWrapper.writeActor$1.invokeSuspend(Object $result) : Object
+
+Package 'io.ktor' is not found along with its 10 classes.
+Probably the package 'io.ktor' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'io.ktor' are not resolved (only 5 most used classes are shown, 5 hidden):
+  Class io.ktor.network.sockets.Socket is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.CompileServiceServerSide.DefaultImpls.attachClient(CompileServiceServerSide this, Socket client) : Deferred
+    org.jetbrains.kotlin.daemon.common.experimental.IncrementalCompilerServicesFacadeServerSide.DefaultImpls.attachClient(IncrementalCompilerServicesFacadeServerSide this, Socket client) : Deferred
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.DefaultAuthorizableClient.close() : void
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.Server.DefaultImpls.access$dealWithClient(Server this, Socket client) : Deferred
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.Server.attachClient$1.$client : Socket
+    ...and 26 other places...
+  Class io.ktor.network.sockets.ServerSocket is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.LoopbackNetworkInterfaceKtor.ServerLoopbackSocketFactoryKtor.createServerSocket(int port) : ServerSocket
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.Server.DefaultImpls.runServer(Server this) : Deferred
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.Server.DefaultImpls.shutdownServer(Server this) : void
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.Server.runServer$1.$serverSocket : ServerSocket
+    org.jetbrains.kotlin.daemon.common.experimental.socketInfrastructure.ServerSocketWrapper.<init>(int port, ServerSocket socket)
+    ...and 7 other places...
+  Class io.ktor.network.selector.ActorSelectorManager is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.LoopbackNetworkInterfaceKtor.<clinit>() : void
+    org.jetbrains.kotlin.daemon.common.experimental.LoopbackNetworkInterfaceKtor.getSelectorMgr() : ActorSelectorManager
+    org.jetbrains.kotlin.daemon.common.experimental.LoopbackNetworkInterfaceKtor.selectorMgr : ActorSelectorManager
+  Class io.ktor.network.selector.SelectorManager is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.LoopbackNetworkInterfaceKtor.ClientLoopbackSocketFactoryKtor.socketCreate$1.invokeSuspend(Object $result) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.LoopbackNetworkInterfaceKtor.ServerLoopbackSocketFactoryKtor.createServerSocket(int port) : ServerSocket
+  Class io.ktor.network.sockets.BuildersKt is referenced in
+    org.jetbrains.kotlin.daemon.common.experimental.LoopbackNetworkInterfaceKtor.ClientLoopbackSocketFactoryKtor.socketCreate$1.invokeSuspend(Object $result) : Object
+    org.jetbrains.kotlin.daemon.common.experimental.LoopbackNetworkInterfaceKtor.ServerLoopbackSocketFactoryKtor.createServerSocket(int port) : ServerSocket
+
+
+
+
+================================================
+Plugin: org.jetbrains.plugins.github
+================================================
+Class org.jetbrains.plugins.github.tasks.GithubRepository references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Constructor org.jetbrains.plugins.github.tasks.GithubRepository.<init>() references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Method org.jetbrains.plugins.github.tasks.GithubRepository.setPassword(String password) : void references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Method org.jetbrains.plugins.github.tasks.GithubRepository.getPresentableName() : String references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Class org.jetbrains.plugins.github.tasks.GithubComment references an unresolved class com.intellij.tasks.impl.SimpleComment. This can lead to **NoSuchClassError** exception at runtime.
+Constructor org.jetbrains.plugins.github.tasks.GithubRepository.<init>(GithubRepository other) references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Method org.jetbrains.plugins.github.tasks.GithubRepository.clone() : BaseRepository references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Constructor org.jetbrains.plugins.github.tasks.GithubRepositoryType.<init>() references an unresolved class com.intellij.tasks.impl.BaseRepositoryType. This can lead to **NoSuchClassError** exception at runtime.
+Method org.jetbrains.plugins.github.tasks.GithubRepositoryType.createEditor(BaseRepository arg0, Project arg1, Consumer arg2) : TaskRepositoryEditor references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Constructor org.jetbrains.plugins.github.tasks.GithubRepository.<init>(GithubRepositoryType type) references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Method org.jetbrains.plugins.github.tasks.GithubRepositoryEditor.apply() : void references an unresolved class com.intellij.tasks.config.BaseRepositoryEditor. This can lead to **NoSuchClassError** exception at runtime.
+Class org.jetbrains.plugins.github.tasks.GithubRepositoryEditor references an unresolved class com.intellij.tasks.config.BaseRepositoryEditor. This can lead to **NoSuchClassError** exception at runtime.
+Constructor org.jetbrains.plugins.github.tasks.GithubComment.<init>(Date date, String author, String text, String avatarUrl, String userHtmlUrl) references an unresolved class com.intellij.tasks.impl.SimpleComment. This can lead to **NoSuchClassError** exception at runtime.
+Constructor org.jetbrains.plugins.github.tasks.GithubRepositoryEditor.<init>(Project project, GithubRepository repository, Consumer changeListener) references an unresolved class com.intellij.tasks.config.BaseRepositoryEditor. This can lead to **NoSuchClassError** exception at runtime.
+Class org.jetbrains.plugins.github.tasks.GithubRepositoryType references an unresolved class com.intellij.tasks.impl.BaseRepositoryType. This can lead to **NoSuchClassError** exception at runtime.
+Method org.jetbrains.plugins.github.tasks.GithubRepository.getFeatures() : int references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Method org.jetbrains.plugins.github.tasks.GithubRepository.equals(Object o) : boolean references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Method org.jetbrains.plugins.github.tasks.GithubRepository.isConfigured() : boolean references an unresolved class com.intellij.tasks.impl.BaseRepository. This can lead to **NoSuchClassError** exception at runtime.
+Method org.jetbrains.plugins.github.tasks.GithubRepositoryEditor.setAnchor(JComponent anchor) : void references an unresolved class com.intellij.tasks.config.BaseRepositoryEditor. This can lead to **NoSuchClassError** exception at runtime.
+
+
+
+================================================
+Plugin: org.jetbrains.settingsRepository
+================================================
+Method org.jetbrains.settingsRepository.SyncType.<clinit>() : void references property OVERWRITE_REMOTE that is not found in resource bundle messages.IcsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.jetbrains.settingsRepository.SyncType.<clinit>() : void references property OVERWRITE_LOCAL that is not found in resource bundle messages.IcsBundle. This can lead to **MissingResourceException** exception at runtime.
+Method org.jetbrains.settingsRepository.SyncType.<clinit>() : void references property MERGE that is not found in resource bundle messages.IcsBundle. This can lead to **MissingResourceException** exception at runtime.
+
+
+
