@@ -12,15 +12,15 @@ echo "Scheduling verifications."
 
 check_ide '203' \
     'https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.26/android-studio-2020.3.1.26-linux.tar.gz' \
-    'https://plugins.jetbrains.com/plugin/download?rel=true&updateId=149101'
+    'https://plugins.jetbrains.com/plugin/download?rel=true&updateId=150145'
 
 check_ide '211' \
     'https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2021.1.1.17/android-studio-2021.1.1.17-linux.tar.gz' \
-    'https://plugins.jetbrains.com/plugin/download?rel=true&updateId=149103'
+    'https://plugins.jetbrains.com/plugin/download?rel=true&updateId=150148'
 
 check_ide '212' \
     'https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2021.2.1.5/android-studio-2021.2.1.5-linux.tar.gz' \
-    'https://plugins.jetbrains.com/plugin/download?rel=true&updateId=149457'
+    'https://plugins.jetbrains.com/plugin/download?rel=true&updateId=150150'
 
 echo "Waiting for verifications to complete."
 wait $(jobs -p)
