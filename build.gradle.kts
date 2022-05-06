@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.intellij.plugins:verifier-cli:1.266")
+    implementation("org.jetbrains.intellij.plugins:verifier-cli:1.278")
 }
 
 java {
