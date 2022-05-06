@@ -10,17 +10,9 @@ function check_ide {
 
 echo "Scheduling verifications."
 
-check_ide 'TODO_IJ_VERSION' \
-    'TODO_STUDIO_LINK' \
-    'TODO_KOTLIN_LINK'
-
-check_ide 'TODO_IJ_VERSION' \
-    'TODO_STUDIO_LINK' \
-    'TODO_KOTLIN_LINK'
-
-check_ide 'TODO_IJ_VERSION' \
-    'TODO_STUDIO_LINK' \
-    'TODO_KOTLIN_LINK'
+check_ide '212' \
+    'https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2021.2.1.15/android-studio-2021.2.1.15-linux.tar.gz' \
+    'https://plugins.jetbrains.com/plugin/download?rel=true&updateId=180512'
 
 echo "Waiting for verifications to complete."
 wait $(jobs -p)
